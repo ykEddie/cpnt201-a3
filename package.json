@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-activity-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwind -i ./assets/css/tailwind.css -o ./assets/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enyorose/tailwind-activity-template.git"
+  },
+  "author": "Ed Adeagbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enyorose/tailwind-activity-template/issues"
+  },
+  "homepage": "https://github.com/Enyorose/tailwind-activity-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
